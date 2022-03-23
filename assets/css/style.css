@@ -1,0 +1,142 @@
+body{
+  background-color: white;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
+}
+.container-fluid{
+  width: 100%
+}
+nav{
+  z-index:100;
+  margin: auto;
+}
+/* Navbar style */
+.navbar{
+  font-size: 30px;
+  font-family: 'Kaushan Script', cursive;
+  padding: 0;
+  margin: 0;
+  background-color: orange;
+}
+.navbar-header{
+  padding-top: 2px;
+  height: 20px;
+}
+.nav-link{
+  color: black;}
+  .nav-link{
+    padding: 30px 0;
+    color:black;
+    font-size: 25px;
+  }
+  .navbar-nav{
+    padding-left: 1em;
+    font-size: 1.1em;
+    font-weight: 200;
+  }
+  .nav-link:hover{
+    background-color: #b35900;
+    color: black;
+  }
+.dropdown-menu{
+  background-color: #b35900;
+  border-right: 1px solid white;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+  border-radius:0;
+ }
+ .dropdown-item{
+   color: black;
+ }
+ .dropdown-item:hover{
+   color: black;
+   background-color: #ff8c1a;
+ }
+
+ .ec1{
+   width: 100%;
+   top:0;
+   z-index:1000;
+   background-image:url(../img/739916-awesome-background-images.jpg) ;
+   margin: 0;
+ }
+.icon{
+  background-color: #333333;
+  padding: 5px 5px 5px 0;
+}
+.form-control, .icon{
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+@media all and (max-width: 1322px){
+  .navbar{
+    display: block;
+  }
+
+  .navbar-header{
+    display: none;
+    padding: 0;
+    height: 100px;
+  }
+  .nav-link{
+    padding: 5px;
+  }
+  .nav-link:hover{
+    background-color: #b30000;
+
+  }
+  .blocLienFooter{
+    padding-left: 0;
+  }
+}
+.nv2{
+  position: absolute;
+}
+
+.card-text{
+  color:black;
+  text-align: center;
+}
+#n1{
+  border-radius: 0;
+  color: red;
+  border-color: inherit;
+}
+#n1:hover{
+  background-color:red;
+  color:white;
+  border-style: none;
+}
+#Img1{
+  padding-left: 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    transform: transition .2s;
+    width: 130px;
+}
+#foota{
+  background-color: #ff8c1a;
+}
+#iconstyle{
+  color: black
+}
+#imgAttribut{
+  width: 100%;
+  height: 71%;
+}
+#cardAttribut{
+  width: 100%;
+  height: 98%;
+}
+footer{font-family: 'Patrick Hand', cursive;
+font-size: 20px;
+}
+#marginstyle{
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
